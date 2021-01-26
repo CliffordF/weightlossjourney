@@ -59,7 +59,7 @@ p {
     flex-flow: row wrap;
     width: 100%;
     padding: 5px 0;
-    background: #A5469A;
+    background: #C8C8C8;
 }
 
 .top-header .top-header-row {
@@ -210,7 +210,7 @@ p {
     flex-flow: row wrap;
     width: 100%;
     padding: 45px 0;
-    background: #C8C8C8;
+    background:#E8E8E8;
 }
 
 .work .work-row {
@@ -259,7 +259,7 @@ p {
 
 .work .work-col a:hover {
     color: #9B1B30;
-    background: #C8C8C8;
+    background: #E8E8E8;
 }
 
 .work .work-col img {
