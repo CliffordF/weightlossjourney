@@ -6,6 +6,9 @@
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="Free Weight Loss Landing Page" name="keywords">
         <meta content="Free Weight Loss Landing Page" name="description">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        
 
         <!-- Favicons -->
         <link href="img/favicon.ico" rel="icon">
@@ -25,7 +28,7 @@
         <div class="top-header">
             <div class="top-header-row">
                 <div class="top-header-col">
-                    <h2>WEIGHT LOSS JOURNEY</h2>
+                    <h2>100% “Send The Bottle Back Empty” Satisfaction Guarantee!</h2>
                 </div>
                 <div class="top-header-col">
                     <p></p>
@@ -42,9 +45,7 @@
                 </div>
                 <div class="header-col">
                     <div class="header-content">
-                        <h1>100% “Send The Bottle Back Empty” Satisfaction Guarantee
-
-</h1>
+                        <h2>TOXIBURN: Look Great Feel Great Now</h2>
                         <ul>
                             <li>Increase Weight Loss</li>
                             <li>Recommended by Doctors</li>
@@ -75,7 +76,7 @@
             <div class="work-row">
                 <div class="work-col">
                     <div class="work-content">
-                        <h2>How Weight Loss Works</h2>
+                        <h2>100% satisfaction guarantee!</h2>
                         <p>
 Our 100% “Send The Bottle Back Empty” Satisfaction Guarantee. Our #1 priority here at ToxiBurn is your happiness. Which means we stand by our product 100%, no matter what, no questions asked, no holds barred, no ifs, no ands, no buts.
 
@@ -83,17 +84,62 @@ Our 100% “Send The Bottle Back Empty” Satisfaction Guarantee. Our #1 priorit
                         <p>
 			If at any time in the next 60 days you are not completely happy with this product, simply drop us an email and we’ll give you a full refund within 48 hours of the product being returned.	
                         </p>
+                        <p>  That’s right, simply return the product, even empty bottles, anytime within 60 days of your purchase and you’ll receive a full, hassle free refund (less shipping and handling).</p>
                         <a href="#">Learn More</a>
                     </div>
                 </div>
                 <div class="work-col">
                     <div class="work-img">
-                        <img src="img/1bottle.png" alt="Product Image" />
+                        <img src="img/satisf.JPG" alt="Product Image" />
                     </div>
                 </div>
             </div>
         </div>
         <!-- How Works End -->
+        
+        
+                <!-- Review Slide -->
+        <h2><br><br></h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="img/review1.JPG" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="img/review2.JPG" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="img/review3.JPG" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="img/review4.JPG" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+        
+                <!-- Review Slide End -->
+
+
+    
         
         <!-- What Doctors Say Start -->
         <div class="doctor">
@@ -102,13 +148,11 @@ Our 100% “Send The Bottle Back Empty” Satisfaction Guarantee. Our #1 priorit
                     <div class="doctor-content">
                         <h2>IMPORTANT</h2>
                         <p>
-				TAKE ADVANTAGE OF OUR SPECIAL PRICE THAT'S AVAILABLE FOR TODAY ONLY!
-                        </p>
-                        <div class="doctor-img">
-                            <img src="img/doctor-say-1.jpg" alt="Image" />
-                            <img src="img/doctor-say-2.jpg" alt="Image" />
-                            <img src="img/doctor-say-3.jpg" alt="Image" />
-                        </div>
+DUE TO STRONG DEMAND, SECURE YOUR ORDER TODAY WHILE STOCKS LAST OR YOU MIGHT HAVE TO WAIT A LONG TIME BEFORE TOXIBURN IS AVAILABLE AGAIN.
+THAT'S WHY WE RECOMMEND SECURING 3 TO 6 MONTHS SUPPLY TODAY.
+TAKE ADVANTAGE OF OUR SPECIAL PRICE THAT'S AVAILABLE FOR TODAY ONLY!
+REMEMBER: WE CANNOT KEEP THIS LOW PRICE PAST TODAY AND YOU CAN ALWAYS RETURN IT FOR A FULL REFUND IF YOU DON'T ABSOLUTELY LOVE IT!                        </p>
+                        
                     </div>
                 </div>
                 <div class="doctor-col">
@@ -217,4 +261,26 @@ Weight Loss Journey is the retailer of products on this site.
 		</p></div>
         <!-- Footer End -->
     </body>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
 </html>
