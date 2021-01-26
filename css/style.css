@@ -45,7 +45,7 @@ h6 {
 p {
     margin: 0 0 15px 0;
     padding: 0;
-    color: #666666;
+    color: #A5469A;
     font-size: 16px;
     font-weight: 300;
 }
@@ -59,7 +59,7 @@ p {
     flex-flow: row wrap;
     width: 100%;
     padding: 5px 0;
-    background: #9B1B30;
+    background: #ffffff;
 }
 
 .top-header .top-header-row {
@@ -81,7 +81,7 @@ p {
 }
 
 .top-header .top-header-col h2 {
-    color: #FFD662;
+    color: #ffffff;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
